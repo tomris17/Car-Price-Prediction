@@ -1,4 +1,4 @@
-# 🚗 Car Price Prediction Project
+#  Car Price Prediction Project
 
 [![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Model-orange.svg)](https://scikit-learn.org/)
@@ -8,7 +8,7 @@ This repository contains an end-to-end Machine Learning Regression project desig
 
 ---
 
-## 📂 Dataset Features
+##  Dataset Features
 The model is trained on a structured dataset (`car_price_dataset.csv`) containing the following features:
 * **Brand & Model**: Manufacturer and specific vehicle model[cite: 4].
 * **Year**: Manufacturing year[cite: 4].
@@ -21,7 +21,7 @@ The model is trained on a structured dataset (`car_price_dataset.csv`) containin
 
 ---
 
-## 🛠️ Project Workflow
+##  Project Workflow
 1. **Data Preprocessing**: Handling numerical scaling (`StandardScaler`) and categorical encoding (`OneHotEncoder`) via Scikit-Learn's `ColumnTransformer`.
 2. **Model Training**: Fitting a `RandomForestRegressor` with optimized parameters (`random_state=42`)[cite: 4].
 3. **Evaluation**: Assessing performance using Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and $R^2$ Score.
@@ -30,7 +30,7 @@ The model is trained on a structured dataset (`car_price_dataset.csv`) containin
 
 ---
 
-## 🚀 Getting Started & Installation
+##  Getting Started & Installation
 
 1. Clone the repository:
    ```bash
